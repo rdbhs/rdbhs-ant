@@ -1,0 +1,9 @@
+project_name: ant-rdbhs
+landing_path: /home/elcone/rdbhs-mallard/landing
+jobs:
+- name: alleva
+  kind: task
+  script_name: main.py
+  working_dir: alleva
+  timeout: 800
+  active: true
