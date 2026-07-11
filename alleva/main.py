@@ -100,7 +100,7 @@ def download_file(file_name: str):
                     if status:
                         logger.info(f"Progress: {int(status.progress() * 100)}%")
 
-            # service.files().delete(fileId=file_id).execute()
+            service.files().delete(fileId=file_id).execute()
             logger.info(f"File deleted from Google Drive")
 
     return file_found
