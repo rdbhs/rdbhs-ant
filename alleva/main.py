@@ -41,6 +41,7 @@ FILES = [
     "services.csv",
     "diagnosis.csv",
     "contacts.csv",
+    "case_managers_primary_clinicians.csv",
 ]
 
 
